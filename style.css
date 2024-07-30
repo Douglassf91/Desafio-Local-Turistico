@@ -1,27 +1,88 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+#container {
+  padding: 92px 92px 24px 67px;
+} 
+
 span {
  color: #E1624F; 
 }
 
+#subtitle {
+  padding-left: 90px;
+}
+
+#title {
+  padding-left: 90px;
+}
+
+#parágrafo {
+  padding-left: 90px;
+}
+
+#list {
+  padding-left: 90px;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+}
+
 #page img {
+  margin-top: 40px;
+  margin-bottom: 24px;
   border-radius: 28px;
   width: 1120px;
   height: 660px;
 }
 
+#page p {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 100px;
+}
+
 #haedong img {
+  margin-top: 64px;
+  margin-bottom: 20px;
   border-radius: 28px;
   width: 1120px;
   height: 350px;
 }
 
 #beomeo img {
+  margin-top: 48px;
+  margin-bottom: 20px;
   border-radius: 28px;
   width: 1120px;
   height: 350px;
 }
 
 #parque img {
+  margin-top: 48px;
+  margin-bottom: 20px;
   border-radius: 28px;
   width: 1120px;
   height: 350px;
+}
+
+.casais {
+  color: #591B98;
+}
+
+.familias {
+  color: #E5245E;
+}
+
+.orçamento {
+  color: #E95E10;
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 24px;
 }
